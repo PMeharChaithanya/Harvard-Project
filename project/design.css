@@ -1,0 +1,190 @@
+body {
+  background-color: #fff;
+  font-family: arial,sans-serif;}
+.foo {  
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 15px;  
+    padding-top: 4px;
+    padding-right: 8px;
+    font: 15px Roboto,Arial,sans-serif
+}
+a:link {
+    color: black;
+    text-decoration: none;
+  }
+  a:visited {
+    color: black;
+  }
+  a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+.logo {
+  padding-top: 12%;
+  display: flex;
+  justify-content: center;
+  object-position: center bottom;
+  height: 92px;
+  width: 272px;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  width: auto;
+}
+
+#input_button {
+  display: flex;
+  height: 44px;
+  border: 1px solid #dfe1e5;
+  padding-left: 45px; /* Increase left padding to accommodate the icon */
+  border-radius: 24px;
+  box-shadow: none;
+  margin: auto auto;
+  width: 90%; /* Set width to a percentage value */
+  max-width: 584px; /* Set max-width to maintain a reasonable width */
+  margin-top: 20px;
+  font-size: 23px;
+  background: rgb(254, 254, 254) url('icon_search.svg') no-repeat;
+  background-position: 10px center;
+}
+.center_align{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#search_button{
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+#q {
+  margin-top: 300px;
+  border-bottom-color: rgb(218, 220, 224);
+  border-top-color: rgb(218, 220, 224);
+  border-right-color: rgb(218, 220, 224);
+  border-left-color: rgb(218, 220, 224);
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-top-style: solid;
+  border-right-width: 1.5px ;
+  border-left-width: 1.5px ;
+  border-top-width: 1.5px ;
+  border-bottom-width: 1.5px;
+  color: rgb(32, 33, 36);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: arial, sans-serif;
+  font-size: 15px;
+  height: 29px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  width: auto;
+}
+
+#img_q{
+  margin-top: 225px;
+  border-bottom-color: rgb(218, 220, 224);
+  border-top-color: rgb(218, 220, 224);
+  border-right-color: rgb(218, 220, 224);
+  border-left-color: rgb(218, 220, 224);
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-top-style: solid;
+  border-right-width: 1.5px ;
+  border-left-width: 1.5px ;
+  border-top-width: 1.5px ;
+  border-bottom-width: 1.5px;
+  color: rgb(32, 33, 36);
+  display: flex;
+  flex-wrap: wrap;
+  font-family: arial, sans-serif;
+  font-size: 15px;
+  height: 17px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  width: auto;
+}
+
+#logo_samll{
+  max-height: 24px;
+  max-width: 74px;
+  display: inline-block;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+.adv_Text{
+  margin: 38px 35px;
+  color: #d93025;
+  font-size: 20px;
+  font-family: arial,sans-serif;}
+  .adv_Text::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;    
+    display: block;
+    border-bottom: 1px solid #CCCCCC;
+    margin-top: 25px;
+  }
+  #a{
+    padding-top: 40px;
+    padding-left: 20px;
+  }
+  #search_spec{
+    padding-left: 20px;
+    padding-top: -5px;
+    font-size: 13px;
+    width: 167px;
+  }
+  .bo {
+    display: flex;
+    align-items: center;
+  }
+  #search_Space{
+border-radius: 1px;
+border: 1px solid #d9d9d9;
+border-top: 1px solid #c0c0c0;
+font-size: 13px;
+height: 25px;
+padding: 1px 8px;
+max-width: 554px;
+width: 100%; /* Set the width of the container */
+overflow-x: auto; /* Enable horizontal scrolling */
+white-space: nowrap;
+}
+.jk-btn { 
+  box-shadow: none; 
+  height: 30px;
+  font-size: 15px;
+  background-color: #4d90fe;
+  border: 1px solid #3079ed;
+  color: #fff
+}
+.jk{
+  display: flex;
+  justify-content: flex-end;
+  max-width: 760px;
+  margin-top: 10px;
+}
